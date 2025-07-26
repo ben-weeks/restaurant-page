@@ -1,0 +1,25 @@
+.home-hero {
+    position: relative;
+    color: black;
+}
+
+.home-hero-image {
+    width: 100%;
+    height: auto;
+
+    border-radius: 1rem;
+}
+
+.home-hero-content {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+/* 
+    font-family: "Merriweather", serif;
+
+    max-width: 10ch;\
+    font-size: 3rem;
+    text-shadow: 0 0 1rem var(--cream);
+*/

@@ -14,7 +14,7 @@
     --charcoal: #333;
 }
 
-header {
+body {
     background-color: var(--navy);
     color: var(--cream);
 }
