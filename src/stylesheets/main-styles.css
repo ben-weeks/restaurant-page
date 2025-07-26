@@ -59,6 +59,6 @@ button {
     transition: 0.2s;
 }
 
-.nav-button:hover {
+button:hover {
     cursor: pointer;
 }

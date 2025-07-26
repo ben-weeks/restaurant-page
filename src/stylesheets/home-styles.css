@@ -1,3 +1,9 @@
+.home {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Hero */
 .home-hero {
     position: relative;
     color: black;
@@ -16,10 +22,86 @@
     left: 1.5rem;
 }
 
-/* 
+.home-hero-title {
     font-family: "Merriweather", serif;
 
-    max-width: 10ch;\
+    max-width: 10ch;
     font-size: 3rem;
     text-shadow: 0 0 1rem var(--cream);
-*/
+}
+
+.home-hero-button {
+    background-color: var(--burnt-orange);
+    color: black;
+    padding: 0.5rem 0.75rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+
+    box-shadow: 0 0 1rem var(--cream);
+}
+
+/* Menu */
+.home-menu {
+    z-index: -1;
+    margin-top: -2rem;
+    color: var(--navy);
+    background-color: var(--cream);
+
+    border-radius: 1rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-menu-title {
+    font-size: 1.75rem;
+    font-family: 'Merriweather', serif;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    font-weight: normal;
+}
+
+.home-menu-content {
+    margin: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-menu-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-menu-item-image {
+    width: 80%;
+    border-radius: 1rem;
+
+    box-shadow: 0 0 0.5rem var(--navy);
+}
+
+.home-menu-item-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.home-menu-item-price {
+    font-size: 1.25rem;
+}
+
+.home-menu-view {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    color: var(--navy);
+
+    font-weight: normal;
+}
