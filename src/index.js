@@ -1,6 +1,8 @@
-import { homePage } from "./home.js"
-import { menuPage } from "./menu.js"
-import { aboutPage } from "./about.js"
+import { homePage } from "./content/home.js"
+import { menuPage } from "./content/menu.js"
+import { aboutPage } from "./content/about.js"
+
+import "./stylesheets/main-styles.css"
 
 const manageNav = (function() {
     const content = document.querySelector(".content")
