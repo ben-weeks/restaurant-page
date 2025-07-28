@@ -36,8 +36,6 @@
     padding: 0.5rem 0.75rem;
     margin-top: 2rem;
     border-radius: 2rem;
-
-    box-shadow: 0 0 1rem var(--cream);
 }
 
 /* Menu */
@@ -104,4 +102,49 @@
     color: var(--navy);
 
     font-weight: normal;
+}
+
+.home-reviews-title {
+    margin: 2rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Merriweather', serif;
+    font-size: 1.75rem;
+}
+
+.home-reviews-container {
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 1rem;
+}
+
+.home-review {
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    flex: 1;
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+
+    color: var(--navy);
+}
+
+.home-review-name {
+    font-weight: bold;
+}
+
+.home-review:nth-child(odd) {
+    background-color: var(--cream);
+    box-shadow: 0 0 0.25rem var(--cream);
+}
+
+.home-review:nth-child(even) {
+    background-color: var(--golden-yellow);
+    box-shadow: 0 0 0.25rem var(--golden-yellow);
 }
