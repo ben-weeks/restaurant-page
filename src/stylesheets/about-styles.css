@@ -1,0 +1,56 @@
+.about {
+    display: flex;
+    flex-flow: column wrap;
+
+    gap: 2rem;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+}
+
+.about-intro,
+.about-mission {
+    background-color: var(--cream);
+    color: var(--navy);
+
+    border-radius: 1rem;
+
+    display: flex;
+    gap: 1rem;
+
+    padding: 1rem;
+}
+
+.about-chef {
+    width: 15rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.about-intro-text,
+.about-intro-text strong {
+    font-size: 1.25rem;
+}
+
+.about-mission {
+    flex-flow: column wrap;
+}
+
+.about-mission-title,
+.about-location-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.75rem;
+}
+
+.about-location {
+    padding: 0 1rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+}

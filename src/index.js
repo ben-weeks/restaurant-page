@@ -5,6 +5,7 @@ import { aboutPage } from "./content/about.js"
 import "./stylesheets/main-styles.css"
 import "./stylesheets/home-styles.css"
 import "./stylesheets/menu-styles.css"
+import "./stylesheets/about-styles.css"
 
 const manageNav = (function() {
     const content = document.querySelector(".content")
@@ -22,7 +23,7 @@ const manageNav = (function() {
         menuButton.addEventListener("click", () => {
             content.innerHTML = ''
             content.appendChild(menuPage.mainDiv)
-        })       
+        })    
         aboutButton.addEventListener("click", () => {
             content.innerHTML = ''
             content.appendChild(aboutPage.mainDiv)
