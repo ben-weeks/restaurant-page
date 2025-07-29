@@ -4,6 +4,7 @@ import { aboutPage } from "./content/about.js"
 
 import "./stylesheets/main-styles.css"
 import "./stylesheets/home-styles.css"
+import "./stylesheets/menu-styles.css"
 
 const manageNav = (function() {
     const content = document.querySelector(".content")

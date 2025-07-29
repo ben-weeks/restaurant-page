@@ -1,0 +1,30 @@
+.menu {
+    background-color: var(--cream);
+    color: var(--navy);
+
+    padding: 2rem;
+
+    border-radius: 1rem;
+}
+
+.menu-heading {
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-title,
+.menu-subtitle {
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+
+.menu-subtitle {
+    font-size: 1.5rem;
+}
+
+.menu-content {
+    margin-top: 1.5rem;
+}
